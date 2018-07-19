@@ -4,7 +4,7 @@ module ArtistsHelper
   end
 
   def artist_select
-    select_tag "song[artist_id]", options_for_select(Artist.all.collect{|a| [a.name, a.id]})
+    #select_tag "song[artist_id]", options_for_select(Artist.all.collect{|a| [a.name, a.id]})
     #collection_select(:song, :artist_id, Artist.all, :id, :name))
   end
 
